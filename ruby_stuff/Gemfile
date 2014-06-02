@@ -1,0 +1,11 @@
+
+       source "https://rubygems.org"
+
+gem "chronic"
+gem "quake"
+gem "rubocop"
+gem "pry"
+
+#install the latest version of that gem
+#we don't edit Gemfile.lock
+#this basically sets

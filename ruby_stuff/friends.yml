@@ -1,0 +1,24 @@
+friends:
+  -
+    name: Lia
+    age: 26
+    from: utah
+    interests: mtn biking\nhiking\ncomputers
+
+  -
+    name: Rick
+    age: 31
+    from: maryland
+    interests: hustling mofo's
+
+  -
+    name: Jimmy
+    age: 34
+    from: maryland
+    interests: vodka and cran
+
+  -
+    name: Mike
+    age: 41
+    from: maryland
+    interests: music and the fiddle 
