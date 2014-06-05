@@ -8,7 +8,7 @@
   text-align: center;
   border-bottom: 1px solid #333333;
 }
-.photo {
+.image {
   border: 1px solid #333333;
   padding: 8px;
   width: 250px;
@@ -17,10 +17,6 @@
   float: left;
   margin-right: 10px;
 }
-.photo img {
+.image img {
   width: 100%;
-}
-
-#mountain {
-  max-width: 50%;
 }

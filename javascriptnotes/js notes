@@ -1,0 +1,127 @@
+"hello world" = this is a string with double quotes
+'This is what?' = string with single quotes
+1243 = fixum and a number
+432.34 = float
+[] = array
+{} = object
+================================================================================
+javascript does not have string interpolation
+
+"1 plus 1 equals".capitalize()
+                    | = called a function
+                    | = when we call a fucntion, we have to add ()
+                    | = nothing in js returns a value
+the return value of this
+"justin".capitalize()
+justin with a capital letter J
+
+camel casing
+"justin".toUpperCase()
+"JUSTIN".toLowerCase()
+
+functional language is javascript.
+function to pass in datatype and it will return whatever we're trying to do.
+
+parseInt("1", 10)
+parseFloat("4.3", 10)
+
+var x = 5
+var name = "justin"
+use var in front of variable name
+var tells js we are creating a local variable and assigning the value
+
+var name = "justin";
+put a simi colon at the end
+
+var firstName = "justin";
+var lastName = "veirs";
+firstName + " " + lastName;
+
+"my name is" + name;
+
+javascript html
+<script charset="utf-8" src="main.js"></script>
+================================================================================
+this is all done in the console of developer tools.
+1 + 1
+2
+"hello"
+"hello"
+var name = "justin";
+undefined
+name
+"justin"
+name.length
+6
+name.toUpperCase
+function toUpperCase() { [native code] }
+name.toUpperCase()
+"JUSTIN"
+name.toUpperCase().length
+6
+name.toLowerCase().toUpperCase()
+"JUSTIN"
+
+var z = 5;
+undefined
+var a = 2;
+undefined
+z /a
+2.5
+
+NaN = not a number
+developer tools
+parseInt("asdf", 10)
+NaN
+parseInt("3", 10)
+3
+3.class
+SyntaxError: Unexpected token ILLEGAL
+var z = 5;
+undefined
+typeof z
+"number"
+
+
+{} is called an object, and it's still a key based index
+var dog = {name: 'fluffy', age: 3};
+undefined
+dog
+Object {name: "fluffy", age: 3}
+if we wanted to get name from this
+dog['name']
+"fluffy"
+dog['age']
+3
+assign a value
+dog['breed'] = 'pit bull';
+>dog
+Object {name="fluffy", age=3, breed="pit bull"}
+
+keys become properties.
+dog.name
+"fluffy"
+
+console.log is like puts in ruby
+
+confirm("Are you okay?")
+
+prompt("what is your name?")
+"Justin" to bring up a box asking me to input my name
+
+null = this is nothing, and something is nothing, we call it null
+
+DOM = document object model
+================================================================================
+
+window.onload = function() {
+  var images = document.querySelectorAll('.col img');
+  for (var i = 0; i < images.length; i++){
+    images[i].addEventListen('click', function(){
+      console.log('this');
+    }, false);
+  }
+};
+
+this example right here is for clickin on an image.
+the keyword 'this'
