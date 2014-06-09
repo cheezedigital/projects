@@ -125,3 +125,24 @@ window.onload = function() {
 
 this example right here is for clickin on an image.
 the keyword 'this'
+
+<form>
+html forms are how users can interact with our web application
+</form>
+the form tag requires some attributes, and these really help to define what the
+forms are doing, and the first attr is action="" sending the data to.
+action="" attr
+method=""attr, two values we'll ever put into here.
+  1.get
+  2.post
+do you want to get info from the server (search form)
+do you want to post stuff on the server (not a search form)
+
+different elements that go into forms
+1.<input> -------> hidden
+2.<select>         text  ------->text
+3.<text area>      password      email
+4.<button>         radio         number
+                   checkbox      url
+                   submit
+                   reset
